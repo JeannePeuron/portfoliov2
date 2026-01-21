@@ -1,35 +1,21 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import "./App.css";
+import Card from "./components/Card";
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="p-4 space-y-6">
+      <Card
+        picture="/exercice-1.png"
+        name="Quiz - Les dessins animés de notre enfance"
+        description="Réalisation d'un quiz sur un thème choisi en groupe. Travail de groupe : utilisation du Git et des branches etc... Sauvegarde du tableau des questions dans le localStorage, incrémentation du score dans l'URL. Mélange du tableau des questions avec l'algorithme de Fisher Yates. Utilisation de Math.random pour des questions aléatoires."
+        technology1="HTML"
+        technology2="JavaScript"
+        linkGithub="https://github.com/JeannePeuron/projet-quiz-team-mejeda.git"
+        linkAppli="Je n'ai plus le lien"
+        date="Novembre 2025"
+      />
+    </div>
+  );
 }
 
-export default App
+export default App;
