@@ -1,0 +1,132 @@
+[
+  {
+    "id": "petadopte",
+    "picture": "/petadopte.jpg",
+    "name": "Adaopte - Adoption d'animaux",
+    "description": "Application web responsive dédiée à la découverte et à l’adoption d’animaux.\nElle permet de rechercher et filtrer des animaux par type et localisation, avec un affichage dynamique sous forme de cartes.\nProjet frontend réalisé en React et TypeScript, en mobile-first, à partir de données locales en JSON.",
+    "technologies": [
+      "React (vite)",
+      "TypeScript",
+      "TailwindCSS (Responsive)",
+      "SQL"
+    ],
+    "learnings": ["JSON", "Hooks", "Props", "Filtres", "React Router"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/petadopte",
+      "appli": "https://petadopte.vercel.app/",
+      "drawSQL": "https://drawsql.app/teams/adatechschool-1/diagrams/petadopte"
+    },
+    "date": "Janvier 2026"
+  },
+  {
+    "id": "dataviz-paris",
+    "picture": "/dataviz.jpg",
+    "name": "Dataviz - Tournages réalisés à Paris",
+    "description": "Application web de data visualisation exploitant une API open data sur les lieux de tournage à Paris.\nElle présente des graphiques interactifs permettant d’analyser l’évolution, les types de tournages et leur répartition géographique.\nProjet réalisé en équipe avec React et TypeScript, axé sur la consommation d’API, la transformation de données et la visualisation.",
+    "technologies": ["React (vite)", "TypeScript", "TailwindCSS (Responsive)"],
+    "learnings": ["API Rest", "Recharts", "React Router", "Filtres"],
+    "links": {
+      "github": "https://github.com/freezer49/DATAVIZ-JC",
+      "appli": "https://dataviz-jc.vercel.app/"
+    },
+    "date": "Decembre 2025"
+  },
+  {
+    "id": "station-meteo",
+    "picture": "/meteo.jpg",
+    "name": "Station de météo",
+    "description": "Application web affichant la météo actuelle d’une ville à partir de son nom, grâce à la consommation d’API OpenStreetMap et Open-Météo.\nProjet axé sur la programmation asynchrone en JavaScript (async/await, fetch) et la gestion des erreurs côté utilisateur.\nRéalisé pour pratiquer l’interaction client/serveur et la manipulation de données JSON.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "learnings": ["API", "fetch async/await", "DOM", "Conditions", "Promesses"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/kata-mini-station-meteo"
+    },
+    "date": "Decembre 2025"
+  },
+  {
+    "id": "citations",
+    "picture": "/quotations-app.jpg",
+    "name": "Biblihotèque de citations",
+    "description": "Application web simple permettant de centraliser et afficher des citations ou répliques favorites.\nL’utilisateur peut ajouter une citation avec son auteur ou autrice et visualiser la liste mise à jour en temps réel.\nProjet réalisé en JavaScript pour pratiquer la manipulation du DOM et la gestion d’événements.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "learnings": ["DOM"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/quotations-app",
+      "appli": "https://jeannepeuron.github.io/quotations-app/"
+    },
+    "date": "Novembre 2025"
+  },
+  {
+    "id": "dates-palindromes",
+    "picture": "/palindromes.png",
+    "name": "Outil de vérification des dates palindromes",
+    "description": "Petit projet JavaScript permettant de détecter les dates palindromes et de générer les prochaines occurrences à partir d’aujourd’hui.\nLe projet met en pratique la manipulation de chaînes, la validation de dates et la logique algorithmique en JS.\nRéalisé en JavaScript vanilla, idéal pour consolider les bases et l’algorithmique côté front-end.",
+    "technologies": ["JavaScript", "HTML"],
+    "learnings": ["Conditions", "Boucles"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/lesPalindromes"
+    },
+    "date": "Novembre 2025"
+  },
+  {
+    "id": "quiz-dessins-animes",
+    "picture": "/exercice-1.png",
+    "name": "Quiz - Les dessins animés de notre enfance",
+    "description": "Quiz interactif en front-end permettant de tester ses connaissances sur les dessins animés des années 80 à aujourd’hui.\nLe joueur répond à des questions à choix multiples, avec gestion du score, de la progression et d’un mode chronométré.\nProjet réalisé en groupe dans un cadre pédagogique pour pratiquer la manipulation du DOM et la logique JavaScript.",
+    "technologies": ["HTML", "JavaScript"],
+    "learnings": ["Git", "DOM", "LocalStorage", "URL", "Fisher Yates"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/projet-quiz-team-mejeda.git",
+      "appli": "https://piouoiq.github.io/projet-quiz-team-mejeda/"
+    },
+    "date": "Novembre 2025"
+  },
+  {
+    "id": "traducteur-morse",
+    "picture": "/exercice0.png",
+    "name": "Traducteur de morse",
+    "description": "Traducteur web individuel capable de convertir du texte en code Morse et inversement.\nProjet axé sur la manipulation de structures de données, la gestion des entrées utilisateur et le développement d’un algorithme de conversion.\nRéalisé en HTML, CSS et JavaScript, avec versionnage via Git/GitHub, dans le cadre de ma formation Fullstack.",
+    "technologies": ["JavaScript", "HTML", "CSS"],
+    "learnings": ["DOM", "Tableaux et objets", "Fonctions"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/traducteur_morse"
+    },
+    "date": "Novembre 2015"
+  },
+  {
+    "id": "guess-a-number",
+    "picture": "/exercice2.png",
+    "name": "Guess a number",
+    "description": "Petit jeu JavaScript où l’utilisateur doit deviner un nombre choisi, avec indications si le nombre est trop grand ou trop petit.\nLe projet met en pratique la logique, les fonctions, la gestion des entrées utilisateur et les boucles.\nRéalisé en JavaScript vanilla, avec HTML/CSS optionnel pour l’interface.",
+    "technologies": ["JavaScript"],
+    "learnings": ["Prompt", "Conditions"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/GuessANumber"
+    },
+    "date": "Octobre 2015"
+  },
+  {
+    "id": "shifumi",
+    "picture": "/exercice3.png",
+    "name": "SHI-FU-MI",
+    "description": "Dans le cadre de la formation découverte chez AdaTechSchool : Mini-jeu Pierre-Feuille-Ciseaux réalisé en groupe pour s’initier à JavaScript.\nLe joueur affronte l’ordinateur avec résultat affiché dynamiquement grâce à la manipulation du DOM.\nProjet axé sur les bases du JavaScript, les conditions, boucles, fonctions et le travail collaboratif.",
+    "technologies": ["JavaScript"],
+    "learnings": ["Variables", "Fonctions", "Boucles", "Conditions"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/Shifumi"
+    },
+    "date": "Juillet 2015"
+  },
+  {
+    "id": "cv-html-css",
+    "picture": "/exercice4.png",
+    "name": "Curriculum Vitae",
+    "description": "Version codée de mon CV personnel réalisée en HTML et CSS, dans le cadre d’un stage aux côtés d’un développeur web.\nCe projet m’a permis de découvrir les bases du développement web, la structuration d’une page et la logique du code.\nPremière expérience concrète en front-end, posant les fondations de mon apprentissage en développement web.",
+    "technologies": ["HTML", "CSS"],
+    "learnings": ["Premiers pas vers le HTML et le CSS"],
+    "links": {
+      "github": "https://github.com/JeannePeuron/CV"
+    },
+    "date": "Mai 2025"
+  }
+]
