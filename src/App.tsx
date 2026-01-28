@@ -1,10 +1,10 @@
 import "./App.css";
-import ListCards from "./components/ListCards";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
     <div>
-      <ListCards></ListCards>
+      <HomePage></HomePage>
     </div>
   );
 }

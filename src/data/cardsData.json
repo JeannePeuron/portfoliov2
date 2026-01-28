@@ -1,5 +1,43 @@
 [
   {
+    "id": "layout-react-reproduction",
+    "picture": "/layout-react.png",
+    "name": "Reproduction de visuel – Layout React",
+    "description": "Exercice front-end consistant à reproduire un visuel simple afin de comprendre la structuration d’un layout en React.\nLe projet met l’accent sur la création de composants réutilisables, le passage de props et la génération dynamique d’éléments à partir de données JSON.\nRéalisé avec React, TypeScript et Tailwind CSS pour se familiariser avec un framework moderne et sa documentation.",
+    "technologies": ["React (Vite)", "TypeScript", "Tailwind CSS"],
+    "learnings": [
+      "Composants React",
+      "Props",
+      "Génération dynamique avec map()",
+      "Structuration d’un layout",
+      "Données externes en JSON",
+      "Découverte de la documentation React"
+    ],
+    "links": {
+      "github": "https://github.com/JeannePeuron/framework"
+    },
+    "date": "2025"
+  },
+  {
+    "id": "sapin-ascii-js",
+    "picture": "/sapin-ascii.png",
+    "name": "Sapin de Noël ASCII",
+    "description": "Exercice algorithmique en JavaScript consistant à générer un sapin de Noël en ASCII à l’aide de boucles et de fonctions.\nLe projet met l’accent sur la logique, la factorisation du code et la gestion de l’alignement.\nRéalisé pour pratiquer les boucles imbriquées, l’accumulation de chaînes et la structuration d’un algorithme.",
+    "technologies": ["JavaScript "],
+    "learnings": [
+      "Boucles et boucles imbriquées",
+      "Algorithmique",
+      "Accumulation et réduction",
+      "Factorisation du code",
+      "Manipulation de chaînes",
+      "Lisibilité et structuration"
+    ],
+    "links": {
+      "github": "https://github.com/JeannePeuron/ChristmasTree"
+    },
+    "date": "Janvier 2026"
+  },
+  {
     "id": "petadopte",
     "picture": "/petadopte.jpg",
     "name": "Adaopte - Adoption d'animaux",
