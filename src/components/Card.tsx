@@ -22,7 +22,7 @@ export default function Card({
   date,
 }: CardProp) {
   return (
-    <div className="bg-white mb-5 mt-5 w-full max-w-md rounded-lg overflow-hidden shadow-lg transition-all duration-300 ease-out hover:scale-105 hover:-translate-y-2 hover:shadow-xl">
+    <div className="bg-white h-full w-full max-w-md rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:scale-105">
       {/* Image */}
       <div className="w-full h-48 overflow-hidden">
         <img src={picture} alt={name} className="w-full h-full object-cover" />
@@ -65,7 +65,7 @@ export default function Card({
               <a
                 key={key}
                 href={url}
-                className="bg-[#D9A78C] text-[#FDF8F2] hover:bg-[#592D13] hover:text-[FDF8F2] font-medium py-1 px-4 rounded cursor-pointer w-full inline-block text-center"
+                className="bg-[#D9A78C] text-[#FDF8F2] hover:bg-[#592D13] hover:text-[#FDF8F2] font-medium py-1 px-4 rounded cursor-pointer w-full inline-block text-center"
               >
                 {key === "github"
                   ? "Github"
