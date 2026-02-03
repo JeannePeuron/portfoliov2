@@ -63,7 +63,7 @@ export default function Card({
         </div>
 
         {/* Liens toujours en bas */}
-        <div className="mt-auto flex flex-col gap-2 pt-4 text-xs">
+        <div className="mt-auto flex flex-col gap-2 pt-4 text-xs ">
           {Object.entries(links).map(([key, url]) =>
             url ? (
               <a
