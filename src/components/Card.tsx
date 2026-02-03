@@ -12,6 +12,7 @@ export interface CardProp {
   };
   date: string;
 }
+
 export default function Card({
   picture,
   name,
@@ -24,22 +25,25 @@ export default function Card({
   return (
     <div className="bg-white h-full w-full max-w-md rounded-lg overflow-hidden shadow-lg transition-all duration-300 hover:scale-105">
       {/* Image */}
-      <div className="w-full h-48 overflow-hidden">
-        <img src={picture} alt={name} className="w-full h-full object-cover" />
+      <div className="h-48 w-full overflow-hidden">
+        <img src={picture} alt={name} className="h-full w-full object-cover" />
       </div>
 
       {/* Contenu */}
-      <div className="p-4 text-[#592D13]">
-        <div className="mt-2 text-xs">{date}</div>
+      <div className="flex flex-1 flex-col p-4 text-[#592D13]">
+        <div className="text-xs">{date}</div>
+
         <h1 className="text-lg font-bold">{name}</h1>
-        <p className="mt-2 text-sm">{description}</p>
+
+        {/* Description limitée */}
+        <p className="mt-2 text-sm ">{description}</p>
 
         {/* Technologies */}
         <div className="mt-3 flex flex-wrap gap-2 text-xs">
-          {technologies.map((tech, i) => (
+          {technologies.map((tech) => (
             <span
-              key={i}
-              className="px-2 py-1  bg-[#592D13] text-[#FDF8F2] gap-2 rounded"
+              key={tech}
+              className="rounded bg-[#592D13] px-2 py-1 text-[#FDF8F2]"
             >
               {tech}
             </span>
@@ -47,19 +51,19 @@ export default function Card({
         </div>
 
         {/* Learnings */}
-        <div className="mt-3 flex flex-wrap gap-2 text-xs ">
-          {learnings.map((learn, i) => (
+        <div className="mt-3 flex flex-wrap gap-2 text-xs">
+          {learnings.map((learn) => (
             <span
-              key={i}
-              className="px-2 py-1  bg-[#FDF8F2] text-[#592D13] gap-2 rounded"
+              key={learn}
+              className="rounded bg-[#FDF8F2] px-2 py-1 text-[#592D13]"
             >
               {learn}
             </span>
           ))}
         </div>
 
-        {/* Liens */}
-        <div className="mt-3 flex flex-wrap gap-2 text-xs">
+        {/* Liens toujours en bas */}
+        <div className="mt-auto flex flex-col gap-2 pt-4 text-xs">
           {Object.entries(links).map(([key, url]) =>
             url ? (
               <a
@@ -70,7 +74,7 @@ export default function Card({
                 {key === "github"
                   ? "Github"
                   : key === "appli"
-                    ? "Appli"
+                    ? "Voir l’application"
                     : "DrawSQL"}
               </a>
             ) : null,

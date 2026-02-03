@@ -22,14 +22,17 @@ export default function Navbar() {
           <NavItem label="Contact" />
         </div>
 
-        {/* Bouton CV à droite */}
+        {/* Lien CV à droite */}
         <div className="ml-auto hidden md:block">
-          <button
+          <a
+            href="/cv-jeanne.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="rounded-md px-4 py-2 text-sm font-medium"
             style={{ backgroundColor: "#D9A78C", color: "#FDF8F2" }}
           >
-            Télécharger mon CV
-          </button>
+            Télécharger mon CV ⬇️
+          </a>
         </div>
 
         {/* Bouton menu mobile */}
