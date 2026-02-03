@@ -11,14 +11,20 @@ export default function Footer() {
           <FooterItem label="À propos" />
           <FooterItem label="Projets" />
           <FooterItem label="Contact" />
-          <FooterItem label="Télécharger mon CV" />
+          <a href="/cv-jeanne.pdf" target="_blank" rel="noopener noreferrer">
+            <FooterItem label="Télécharger mon CV" />
+          </a>
         </div>
 
         {/* Réseaux sociaux */}
         <div className="flex items-center gap-6">
           {/* LinkedIn */}
           <Icon>
-            <a href="https://www.linkedin.com/in/jeannepeuron/">
+            <a
+              href="https://www.linkedin.com/in/jeannepeuron/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
@@ -32,7 +38,11 @@ export default function Footer() {
 
           {/* GitHub */}
           <Icon>
-            <a href="https://github.com/JeannePeuron">
+            <a
+              href="https://github.com/JeannePeuron"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="currentColor"
