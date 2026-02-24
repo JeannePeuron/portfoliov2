@@ -7,7 +7,7 @@ export default function Form() {
       <input type="text" />
       <label htmlFor=""></label>
       <input type="text" />
-      <button type="submit "> Envoyer </button>
+      <button type="submit"> Envoyer </button>
     </form>
   );
 }
