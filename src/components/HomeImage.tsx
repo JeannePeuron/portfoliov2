@@ -17,6 +17,8 @@ export default function HomeImage() {
         <p className="p-4">
           Bienvenue sur mon portfolio ! Découvrez mon évolution <br /> au cours
           de ma formation de développeuse full-stack à AdataTechSchool.
+          <br />
+          <p className="text-xs italic">(Portfolio en cours d'amélioration)</p>
         </p>
       </div>
     </div>
